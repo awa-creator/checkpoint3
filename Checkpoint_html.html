@@ -4,61 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--   Création la barre de navigation : domicile, à propos, travail, CV, contact-->
+    
     <header>
-        <center><h1><b><i>Awa portfolio</i></b></h1></center>
+        <center><h1><b>Awa portfolio </b></h1></center>
         <nav>
-           <h2><b><a href="#A propos">A propos</a></b></h2> 
+            <h2><b><a href="#Apropos">A propos</a></b></h2>
             <h2><b><a href="#Domicile">Domicile</a></b></h2>
             <h2><b><a href="#Travail">Travail</a></b></h2>
             <h2><b><a href="#CV">CV</a></b></h2>
-            <h2><b><a href="#Contact">Contact</a></b></h2>
+            <h2><b><a href="#Contact">Contact </a></b></h2>
         </nav>
-    </header> <hr>
-    <!--Création de la section « à propos », la section « travail », la section « CV » et la section « contact » (à l’aide de formulaires HTML) -->
-    <section id="A propos">
-        <h2><center><i>A propos</i></center></h2>
-        <p>Bienvenue dans mon univers numérique,je suis Awa, un développeur web spécialisé dans la création de sites et d'applications interactives. Avec des compétences en HTML, CSS, JavaScript et divers frameworks modernes, je m'efforce de concevoir des solutions élégantes et fonctionnelles.
+    </header>
+    
+    <section id="Apropos">
+    
+        <h2 class="non"><center><i>A propos</i></center></h2>
+        <p id="para1">Bienvenue dans mon univers numérique,je suis Awa, un développeur web spécialisé dans la création de sites et d'applications interactives. Avec des compétences en HTML, CSS, JavaScript et divers frameworks modernes, je m'efforce de concevoir des solutions élégantes et fonctionnelles.
+            Découvrez mon portfolio pour voir des exemples de projets que j'ai réalisés, reflétant mon expertise et mon engagement envers la qualité du développement web.</p>  
 
-            Découvrez mon portfolio pour voir des exemples de projets que j'ai réalisés, reflétant mon expertise et mon engagement envers la qualité du développement web.</p>
+     <img src="doc/imag.jpg" alt="photos" width="560" height="300" >
         <img src="doc/image.jpg" alt="photos" width="560" height="300">
-
-        <img src="doc/imag.jpg" alt="photos" width="560" height="300">
     </section>
     <section id="Domicile">
-        <h2><i><center>Domicile</center></i></h2>
+        <h2 class="non"><i><center>Domicile</center></i></h2>
         <p>Je suis Awa, passionné par le développement web et la technologie. Ici, vous trouverez un mélange de créativité, d’innovation et d’engagement pour la qualité. Prenez une tasse de café et explorez mes réalisations et projets préférés.</p>
        <p>Voici une video illustrative</p> 
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/H_xNO1QYjpc?si=UUEw_2tkR_aheWCi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       <center><iframe width="560" height="315" src="https://www.youtube.com/embed/H_xNO1QYjpc?si=UUEw_2tkR_aheWCi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></center></iframe>
     </section>
     <section id="Travail">
-        <h2><i><center>Travail</center></i></h2></section> 
-    <p>Voici quelques compétences acquises
-
-        
-        <br><b>Développement Web </b>:HTML, CSS, JavaScript, PHP
-
-        <br><b>Frameworks Front-End </b>:React, Vue.js, Angular
-        
-        <br><b>Design UX/UI </b>:Photoshop, Figma
-        
-        <br><b>Gestion de Projet </b>:Agile, Scrum
-        
-        <br><b>Optimisation des Performances </b>:Amélioration du temps de chargement et réactivité des sites
-        
-        <br><b>Sécurité Web </b>:Protection des données, pratiques sécurisées
-    </p>
-    <section id="CV">
-        <h2><i><center>CV</center></i></h2>
+        <h2 class="non"><i><center>Travail</center></i></h2>
+    <p><h3>Voici quelques compétences acquises</h3></p>
+    <div class="test">
+        <br><b>Développement Web:</b><br>HTML, CSS, JavaScript, PHP 
+        <br><b>Frameworks Front-End:</b><br>React, Vue.js, Angular
+        <br><b>Design UX/UI:</b><br>Photoshop, Figma
+    </div>
+    <div class="test">
+        <br><b>Gestion de Projet:</b><br>Agile, Scrum
+        <br><b>Optimisation des Performances:</b><br>Amélioration du temps de chargement et réactivité des sites
+        <br><b>Sécurité Web:</b><br>Protection des données, pratiques sécurisées
+    </div>
+    <div class="test">
+        <br><b>Développement mobile :</b><br>Connaissance du développement d'applications web progressives (PWA).
+        <br><b>Optimisation des Performances:</b><br>Techniques de SEO et d'optimisation des performances.
+        <br><b>Sécurité Web:</b><br>Protection des données, pratiques sécurisées
+    </div>
+    </section> 
+    <br>
+        <section id="CV">
+        <h2 class="non"><i><center>CV</center></i></h2>
         <p>Veuillez trouver ci-dessous un aperçu détaillé de mon parcours professionnel et académique.</p>
         <center><img src="CV/CV exemple.jpg" alt="CV" width="520" height="440"></center>
         <p>Vous pouvez télécharger mon CV en cliquant le lien si dessous</p>
         <a href="CV/CV exemple.jpg" download="">télécharger mon CV</a>
     </section>
     <section id="Contact">
-        <h2><i><center>Contact</center></i></h2>
+        <h2 class="non"><i><center>Contact</center></i></h2>
         <p>Pour plus d'information veillez remplir ce formulaire</p>
         <form action="">
        <div><label for="name"> Nom :</label>
@@ -76,6 +80,6 @@
         </form> 
     </section><hr>
 </body>
-<!--Création du pied de page.  -->
-<footer><center><b><h4>Copyright Tous droits réservés 2024</h4></b></center></footer>
+
+<footer><center><b><h4 class="non">Copyright Tous droits réservés 2024</h4></b></center></footer>
 </html>
